@@ -1,0 +1,17 @@
+<?php
+
+/**
+ * Init hook
+ *
+ * This hook gets used to perform setup tasks for non-cached page requests. You can use it to init
+ * the Saft library, which means setup class autoloading.
+ *
+ * For more information about this hook:
+ * https://api.drupal.org/api/drupal/modules%21system%21system.api.php/function/hook_init/7
+ */
+function saft_drupal7_skeleton_module_init()
+{
+    saft_initlib();
+}
+
+// thats it, Saft is ready for action. you can now build your module further. :)

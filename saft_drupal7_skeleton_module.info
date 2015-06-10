@@ -1,0 +1,5 @@
+name = "Saft Skeleton Module"
+description = "That is a skeleton module for the Saft module. It provides a basic file structure and internal logic you can tap in."
+core = "7.x"
+version = "7.x-0.1"
+dependencies[] = saft
